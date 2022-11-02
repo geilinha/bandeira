@@ -1,0 +1,202 @@
+package bandeira;
+
+public class Bandeira2 {
+
+	public static void main(String[] args) {
+
+		
+		int largura = 20;
+		int altura = 15;
+		int repeticao = 1;
+		int i;
+		
+		System.out.println("----------------------------------------------------------");
+		System.out.println("----------------------------- -----------------------------");
+		for(repeticao = 1; repeticao <=altura; repeticao++) {
+			
+			if(repeticao == 1) {
+				for(i = 1; i<=largura; i++) {
+					if(i == 10 ||  i == 11) {
+						System.out.print("   ");
+					}
+					else {
+						System.out.print("---");
+					}
+				}
+				System.out.println();
+			}
+			
+			if(repeticao ==2) {
+				for(i = 1; i<=largura; i++) {
+					if(i >=9 && i <= 12) {
+						System.out.print("   ");
+					}
+					else {
+						System.out.print("---");
+					}
+				}
+				System.out.println();
+			}
+			//
+			if(repeticao ==3) {
+				for(i = 1; i<=largura; i++) {
+					if(i >=8 && i <= 13) {
+						System.out.print("   ");
+					}
+					else {
+						System.out.print("---");
+					}
+				}
+				System.out.println();
+			}
+			//
+			if(repeticao ==4) {
+				for(i = 1; i<=largura; i++) {
+					if(i >=7 && i <= 14) {
+						System.out.print("   ");
+					}
+					else {
+						System.out.print("---");
+					}
+				}
+				System.out.println();
+			}
+			//
+			if(repeticao ==5) {
+				for(i = 1; i<=largura; i++) {
+					if(i >=6 && i <= 15) {
+						System.out.print("   ");
+					}
+					else {
+						System.out.print("---");
+					}
+				}
+				System.out.println();
+			}
+			//
+			if(repeticao ==6) {
+				for(i = 1; i<=largura; i++) {
+					if(i >=5 && i <= 16) {
+						System.out.print("   ");
+					}
+					else {
+						System.out.print("---");
+					}
+				}
+				System.out.println();
+			}
+			//
+			if(repeticao ==7) {
+				for(i = 1; i<=largura; i++) {
+					if(i >=4 && i <= 17) {
+						System.out.print("   ");
+					}
+					else {
+						System.out.print("---");
+					}
+				}
+				System.out.println();
+			}
+			//oito é a metade
+			if(repeticao ==8) {
+				for(i = 1; i<=largura; i++) {
+					if(i >=3 && i <= 18) {
+						System.out.print("   ");
+					}
+					else {
+						System.out.print("---");
+					}
+				}
+				System.out.println();
+			}
+			
+			
+			//começa a repetir ao contrario
+			if(repeticao ==9) {
+				for(i = 1; i<=largura; i++) {
+					if(i >=4 && i <= 17) {
+						System.out.print("   ");
+					}
+					else {
+						System.out.print("---");
+					}
+				}
+				System.out.println();
+			}			//
+			if(repeticao ==10) {
+				for(i = 1; i<=largura; i++) {
+					if(i >=5 && i <= 16) {
+						System.out.print("   ");
+					}
+					else {
+						System.out.print("---");
+					}
+				}
+				System.out.println();
+			}
+			//
+			if(repeticao ==11) {
+				for(i = 1; i<=largura; i++) {
+					if(i >=6 && i <= 15) {
+						System.out.print("   ");
+					}
+					else {
+						System.out.print("---");
+					}
+				}
+				System.out.println();
+			}
+			//
+			if(repeticao ==12) {
+				for(i = 1; i<=largura; i++) {
+					if(i >=7 && i <= 14) {
+						System.out.print("   ");
+					}
+					else {
+						System.out.print("---");
+					}
+				}
+				System.out.println();
+			}			
+			//
+			if(repeticao ==13) {
+				for(i = 1; i<=largura; i++) {
+					if(i >=8 && i <= 13) {
+						System.out.print("   ");
+					}
+					else {
+						System.out.print("---");
+					}
+				}
+				System.out.println();
+			}
+			//
+			if(repeticao ==14) {
+				for(i = 1; i<=largura; i++) {
+					if(i >=9 && i <= 12) {
+						System.out.print("   ");
+					}
+					else {
+						System.out.print("---");
+					}
+				}
+				System.out.println();
+			}
+			//
+			if(repeticao == 15) {
+				for(i = 1; i<=largura; i++) {
+					if(i >=10 &&  i <= 11) {
+						System.out.print("   ");
+					}
+					else {
+						System.out.print("---");
+					}
+				}
+				System.out.println();
+			}
+		}
+		System.out.println("----------------------------- ------------------------------");
+		System.out.println("------------------------------------------------------------");
+	}
+}
+
